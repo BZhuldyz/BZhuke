@@ -29,8 +29,11 @@ public class CheckBox extends HttpServlet {
                 +request.getParameter( "physics") + "\n" +
                         "<li><b>Chemistry Flag</b>: "
                 +request.getParameter( "chemistry") + "\n" +
+<<<<<<< HEAD
                 "<li><b>History Flag</b>: "
                 +request.getParameter( "history") + "\n" +
+=======
+>>>>>>> experiment1
                 "</ul>\n" +
                 "</body>\n" +
                 "</html>");

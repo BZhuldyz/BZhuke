@@ -1,0 +1,8 @@
+<application>
+  <component name="MainMenuCollector">
+    <counts>
+      <entry path="File -&gt; Open..." count="1" />
+      <entry path="File -&gt; Project Structure..." count="1" />
+    </counts>
+  </component>
+</application>
