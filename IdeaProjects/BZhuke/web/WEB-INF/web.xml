@@ -4,22 +4,6 @@
            xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
            version="3.1">
-<servlet>
-    <servlet-name>asd</servlet-name>
-    <servlet-class>qwerty.asd</servlet-class>
-</servlet>
-    <servlet-mapping>
-        <servlet-name>asd</servlet-name>
-        <url-pattern>/asd</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>CheckBox</servlet-name>
-        <servlet-class>qwerty.CheckBox</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CheckBox</servlet-name>
-        <url-pattern>/CheckBox</url-pattern>
-    </servlet-mapping>
 
 </web-app>
 

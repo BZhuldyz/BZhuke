@@ -1,3 +1,5 @@
+package qwerty;
+
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -12,7 +14,7 @@ public class Srs5Test {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
-                .addClass(qwerty.Srs5.Srs5.class)
+                .addClass(Srs5.Srs5.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 

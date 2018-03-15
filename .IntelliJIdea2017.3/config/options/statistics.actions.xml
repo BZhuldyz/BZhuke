@@ -1,7 +1,15 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="OpenFile" count="1" />
+      <entry action="ChangesView.AddUnversioned" count="1" />
+      <entry action="EditorBackSpace" count="22" />
+      <entry action="EditorChooseLookupItem" count="1" />
+      <entry action="EditorCopy" count="1" />
+      <entry action="EditorLeft" count="1" />
+      <entry action="EditorRight" count="34" />
+      <entry action="Git.Add" count="7" />
+      <entry action="NewProject" count="1" />
+      <entry action="OpenFile" count="2" />
       <entry action="ShowProjectStructureSettings" count="1" />
     </counts>
   </component>

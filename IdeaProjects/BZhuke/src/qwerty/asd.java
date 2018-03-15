@@ -25,9 +25,9 @@ public class asd extends HttpServlet {
                 "<hl align = \"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
                 " <li><b>First Name</b>: "
-                + request.getParameter( "first_name") + "\n" +
+                + request.getParameter( "a") + "\n" +
                 "<li><b>Last Name</b>: "
-                +request.getParameter( "last_name") + "\n" +
+                +request.getParameter( "b") + "\n" +
                 "</ul>\n" +
                 "</body>\n" +
                 "</html>");
@@ -57,3 +57,4 @@ public class asd extends HttpServlet {
     }
 
 }
+
